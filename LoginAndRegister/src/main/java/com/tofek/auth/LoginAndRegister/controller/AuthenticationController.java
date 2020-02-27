@@ -25,6 +25,8 @@ public class AuthenticationController {
 	public void validateUserCredential(@PathParam("userName") String userName) {
 		System.out.println("inside the Authentication Controller-----");
 		boolean result = authenticationService.validateUserCredential(userName);
+		
+		System.out.println("Testing");
 	}
 
 }
